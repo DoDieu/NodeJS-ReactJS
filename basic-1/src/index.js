@@ -13,25 +13,18 @@ const element = <h1>Hello, {name}</h1>;
  * @param {*} props 
  * @returns 
  */
-function Welcome(props) {
-  return <h1>Hello, {props.name}</h1>;
-}
+// function Welcome(props) {
+//   return <h1>Hello, {props.name}</h1>;
+// }
 
 /**
  * 
  */
 ReactDOM.render(
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>,
-  // 
-  // 
-  <div>
-    <Welcome name="Sara"></Welcome>
-    <Welcome name="Cahal"></Welcome>
-    <Welcome name="Edite"></Welcome>
-  </div>
-  ,
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  
   document.getElementById('root')
 );
 

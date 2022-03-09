@@ -1,22 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Hello from './components/HelloWorld';
+import Welcome from './components/Welcome';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>
+          <Hello></Hello>
+          <Welcome country="VietNam"></Welcome>
+          <Welcome country="Japan"></Welcome>
+          <Welcome country="Korea"></Welcome>
+        </div>
       </header>
     </div>
   );
