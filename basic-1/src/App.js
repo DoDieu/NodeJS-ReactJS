@@ -1,17 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Hello from './components/HelloWorld';
-import Welcome from './components/Welcome';
+import Thongtintacgia from './components/Thongtintacgia';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <div>
-          <Hello></Hello>
-          <Welcome country="VietNam"></Welcome>
-          <Welcome country="Japan"></Welcome>
-          <Welcome country="Korea"></Welcome>
+          <Thongtintacgia/>
         </div>
       </header>
     </div>
