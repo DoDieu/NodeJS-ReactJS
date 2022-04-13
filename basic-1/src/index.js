@@ -4,22 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-//test 1
-const name = 'Do Dieu';
-const element = <h1>Hello, {name}</h1>;
-
-/**
- * 
- * @param {*} props 
- * @returns 
- */
-// function Welcome(props) {
-//   return <h1>Hello, {props.name}</h1>;
-// }
-
-/**
- * 
- */
 ReactDOM.render(
   <React.StrictMode>
     <App />

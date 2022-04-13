@@ -1,14 +1,17 @@
 import './App.css';
-import Thongtintacgia from './components/Thongtintacgia';
+import Footer from './components/Footer';
+import Menu from './components/Menu';
+import Header from './components/Header';
+import Home from './components/Home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div>
-          <Thongtintacgia/>
-        </div>
-      </header>
+      <Header></Header>
+      <Menu></Menu>
+      <Home></Home>
+      <Footer></Footer>
+      
     </div>
   );
 }

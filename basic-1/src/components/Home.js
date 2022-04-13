@@ -1,14 +1,18 @@
+import React from "react";
+import Content from "./Content";
+import Sidebar from "./Sidebar";
 
-function Home() {
-  return (
-    <div className="Home">
-      <header className="App-header">
-        <div>
-         
-        </div>
-      </header>
-    </div>
-  );
+
+class Home extends React.Component{
+  render(){
+    return(
+      <>
+        <Sidebar></Sidebar>
+        <Content></Content>
+      </>
+      
+    );
+  }
 }
 
 export default Home;
